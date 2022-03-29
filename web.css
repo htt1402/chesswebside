@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200;1,300&display=swap');
+body{font-family: 'Caveat', cursive ,'Montserrat', sans-serif;
+}
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 2px;
+    margin: 0 auto;
+    background-color: #939496;
+    vertical-align: middle;
+}
+.container{
+    width: auto;
+    height: 0 auto;
+    text-align: center;
+}
+.nav{ 
+    width: 35%;
+    display:inline-block;
+    vertical-align: right;
+    margin-right: -5px;
+}
+.nav ul a{
+    font-family: 'Montserrat', sans-serif;
+    color:#252729;
+    list-style: none;
+    text-decoration: none;
+    text-align: right;
+    letter-spacing: 2px;
+    margin: 20px;
+    font-size: 15px;
+}
+.nav li{
+    vertical-align: middle;
+    display: inline-block;
+    margin: right;
+}
+.logo{
+    width: 30%;
+    display: inline-block;  
+    vertical-align: middle;
+}
+.logo img{
+    width: 60px;
+    text-align: center;
+}
+.ins{
+    width: 35%;
+    display:inline-block;
+    vertical-align: middle;
+    margin-left: -10px;
+    margin: left;
+}
+.ins li{
+    list-style: none;
+    display: inline-block;
+    letter-spacing: 5px;
+    margin: 0 10px;
+    margin: 10px 20px 10px 20px;
+}
+.ins img{
+    width: 25px;
+    
+}
+.feature{
+    background-image: url("img/damiano-lingauri-bUM4weg0RSI-unsplash.jpg");
+    height: 450px;
+    background-size: cover;
+    position: relative;
+}
+.content{
+    padding: 20px;
+    color:#CACCCD;
+    font-family:'Caveat';
+    font-weight: 200;
+    text-align: center;
+    font-size: 30px;
+}
+.mention{
+    background-color: #939496;
+    text-decoration: none;
+    color:#252729;
+    border-radius: 12px;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif ;
+    position:absolute;
+    bottom: 30px;
+    right: 30px;
+} 
+.word{
+    text-align: center;
+    color:#252729;
+    font-family:'Montserrat', sans-serif ;
+    font-size: 12px;
+    padding: 40px;
+}
+.box{
+    /* display: inline-block; */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+.hi{
+    padding: 15px;
+    background-color:#CACCCD;
+}
+.card{
+    width: 235px;
+    margin: 10px;
+    background-color: #939496;
+    border-radius: 15px;
+    overflow:hidden;
+    box-shadow:3px 6px 20px rgb(59, 55, 55);
+    display: inline-block;
+  }
+  .featur-card{
+   height: 150px;
+   overflow: hidden;
+
+  }
+  .featur-card img{
+    width: 100%;
+
+  }
+  .content-card p{
+      margin: 12px 0 32px;
+      color:#252729;
+  }
+  .content-card h3{
+    color:#CACCCD;
+
+  }
+  .content-card{
+    font-size: 12px;
+    font-family: 'Montserrat';
+    text-align: justify;
+    padding: 20px 32px;
+  }
+  .date{
+      text-decoration: none;
+      display:inline-block;
+      float: right;
+      color:#252729;
+      font-size: 10px;
+      font-family:'Montserrat', sans-serif ;
+      font-weight: 700;
+  }
+.section-2{
+    margin-top: 50px;
+    background-color: #939496;
+    background-image: url(img/hassan-pasha-nEbMedmVwgw-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height:350px;
+}
+.section-2 h2{ 
+    padding: 75px;
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Caveat';
+    color:#CACCCD;
+    margin: 100px 500px 40px;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+.nen{
+    text-align: center;
+    letter-spacing: 100px;
+    padding-bottom: 50px;
+
+}
+.footer{
+    padding-top: 40px;
+    background-color: #939496;
+}
+.about{
+    display:inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+.about img{
+    width: 150px;
+    margin-bottom: 10px;
+}
+.quick-menu{
+    width: 20%;
+    display:inline-block;
+    vertical-align: top;
+}
+.quick-menu ul{
+    list-style: none;    
+}
+.quick-menu li{
+    margin-bottom: 10px;
+}
+.quick-menu li a{
+    vertical-align: middle;
+    text-decoration: none;
+    color:#252729;
+    font-family:'Montserrat', sans-serif ;
+}
+.boxx{
+    width: 70%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.end{
+    width:30%;
+    display:inline-block;
+    vertical-align: middle;
+    margin-left: -10px;
+    margin: left;
+}
+.end li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px 10px 20px;
+}
+.end img{
+    width: 20px;
+}
+.copy{
+    text-align: center;
+    color:#252729;
+    letter-spacing: 2px;
+    font-family:'Montserrat', sans-serif ;
+    background-color:#CACCCD;
+    font-size: 12px;
+    padding: 10px 0;
+}
+.text{
+    text-align: center;
+    color:#252729;
+    font-family: 'Caveat';
+    font-size: 15px;
+    margin: 50px 110px 50px 110px;
+}
+.Join{
+    background-color: #939496;
+    text-decoration: none;
+    color:#252729;
+    border-radius: 12px;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif ;
+
+}
